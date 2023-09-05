@@ -1,0 +1,53 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+#show-sum{
+    
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+    display: block;
+    text-align: center;
+}
+input{
+    background-color: rgb(253, 253, 219);
+}
+
+input:focus{
+    background-color: rgb(0, 247, 255);
+}
+hr{
+    width: 70%;
+}
+form{
+    margin: 2rem 0rem;
+    text-align: center;
+
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    padding: 7px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+button:hover{
+    background-color: gray;
+}
+
+#btn-red{
+    background-color: red;
+
+}
+#btn-green{
+    background-color: green;
+
+}
+#btn-yellow{
+    background-color: yellow;
+
+}

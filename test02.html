@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style02.css" />
+
+    <style>
+      h1 {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 onmouseenter="showDti()">คำนวณผลรวม</h1>
+    <hr />
+    <form onsubmit="return false" action="">
+      ป้อนตัวเลข <input type="text" name="num1" id="num1" /> <br /><br />
+      ป้อนตัวเลข <input type="text" name="num2" id="num2" /> <br /><br />
+      <button id="btn-sum">คำนวณ</button>
+      <button id="btn-cancel">ยกเลิก</button>
+    </form>
+    <hr />
+    <span id="show-sum">????</span>
+    <hr />
+    <div style="text-align: center;">
+      เปลี่ยน Theme
+
+      <button id="btn-red">แดง</button>
+      <button id="btn-green">เขียว</button>
+      <button id="btn-yellow">เหลือง</button>
+    </div>
+    <script>
+      //alert('hello....')
+      console.log("aaaaa");
+    </script>
+    <script src="./js/script02.js"></script>
+  </body>
+</html>
